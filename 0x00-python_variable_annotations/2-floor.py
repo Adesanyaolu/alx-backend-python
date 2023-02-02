@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 
 
-def floor(n: float) -> int :
+def floor(n: float) -> int:
     """
     Return the floor of a floating-point number.
-    
     Arguments:
     n -- A floating-point number
 
