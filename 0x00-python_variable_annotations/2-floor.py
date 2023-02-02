@@ -10,4 +10,4 @@ def floor(n: float) -> int:
     Returns:
     The largest integer less than or equal to n.
     """
-    return int(math.floor(n))
+    return int(n) if n >= 0 else int(n - 1)
